@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>FocusTab</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+</head>
+<body>
+
+    <div id="bg-layer"></div>
+    <div id="bg-overlay"></div>
+
+    <div id="welcome-modal" class="modal-overlay hidden">
+        <div class="glass-card modal-content intro-anim center-content" style="width:400px; padding:30px; border-radius:20px;">
+            <h1 class="logo-title" style="margin-bottom:10px">FocusTab <span>v9.2</span></h1>
+            <p style="opacity:0.8; margin-bottom:20px;">Your peaceful start.</p>
+            
+            <div class="input-group" style="width:100%; margin-bottom:15px">
+                <label><i class="fas fa-globe"></i> <span data-i18n="langLabel">Language / Idioma / Sprache / Dil</span></label>
+                <select id="setup-lang" class="glass-input">
+                    <option value="en">English</option>
+                    <option value="tr">Türkçe</option>
+                    <option value="de">Deutsch</option>
+                    <option value="es">Español</option>
+                </select>
+            </div>
+
+            <p data-i18n="inputName" style="margin-bottom:5px; align-self: flex-start;">Name (Optional)</p>
+            <input type="text" id="setup-name" class="glass-input" placeholder="..." autocomplete="off" style="margin-bottom:15px">
+            
+            <p data-i18n="lblWeather" style="margin-bottom:5px; align-self: flex-start;">City (Optional)</p>
+            <input type="text" id="setup-city" class="glass-input" data-i18n-placeholder="cityPlaceholder" autocomplete="off" style="margin-bottom:20px">
+            
+            <button id="setup-finish-btn" class="primary-btn" data-i18n="saveBtn" style="width:100%">Start Journey</button>
+        </div>
+    </div>
+
+    <div id="shortcut-modal" class="modal-overlay hidden">
+        <div class="glass-card modal-content small-modal">
+            <h3 data-i18n="btnAddShortcut" style="margin-bottom: 20px;">Add Shortcut</h3>
+            
+            <div class="input-group" style="margin-bottom:15px">
+                <label data-i18n="namePlaceholder">Name</label>
+                <input type="text" id="shortcut-name-input" class="glass-input" placeholder="e.g. YouTube">
+            </div>
+            
+            <div class="input-group">
+                <label data-i18n="lblUrl">URL Address</label>
+                <input type="text" id="shortcut-url-input" class="glass-input" placeholder="https://...">
+            </div>
+            
+            <div class="modal-actions" style="margin-top: 20px; display: flex; gap: 10px; justify-content: flex-end;">
+                <button id="shortcut-cancel-btn" class="glass-btn" data-i18n="btnCancel">Cancel</button>
+                <button id="shortcut-save-btn" class="primary-btn" data-i18n="btnApply">Save</button>
+            </div>
+        </div>
+    </div>
+
+    <main id="app-container" class="main-layout hidden fade-in">
+        
+        <header class="top-bar transition-element">
+            <div class="top-left">
+                <div id="weather-widget" class="glass-pill clickable hidden">
+                    <i id="weather-icon" class="fas fa-cloud"></i>
+                    <span id="weather-temp">--°</span>
+                    <span id="weather-city" style="font-size:0.8em; opacity:0.8;"></span>
+                </div>
+            </div>
+            
+            <div class="top-right">
+                <button id="zen-exit-btn" class="glass-pill">
+                    <i class="fas fa-times-circle"></i> <span data-i18n="exitZenBtn">Exit Zen Mode</span>
+                </button>
+
+                <div class="action-buttons">
+                    <button id="quick-sounds-btn" class="icon-btn" title="Sounds">
+                        <i class="fas fa-music"></i>
+                    </button>
+                    <button id="zen-mode-toggle" class="icon-btn" title="Zen Mode">
+                        <i class="fas fa-eye"></i>
+                    </button>
+                    <button id="settings-toggle" class="icon-btn" title="Settings">
+                        <i class="fas fa-cog"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <section class="center-content">
+            
+            <div id="search-container" class="search-wrapper transition-element">
+                <div class="search-icon-box">
+                    <i class="fas fa-search"></i>
+                </div>
+                <input type="text" id="search-input" autocomplete="off">
+            </div>
+
+            <div class="time-wrapper transition-element">
+                <h1 id="clock">00:00</h1>
+                <h3 id="greeting">...</h3>
+            </div>
+
+            <div id="pomodoro-container" class="glass-pill pomodoro-box hidden transition-element">
+                <div class="pomo-timer-display">
+                    <span id="pomo-time">25:00</span>
+                </div>
+                <div class="pomo-controls">
+                    <button id="pomo-toggle"><i class="fas fa-play"></i></button>
+                    <button id="pomo-reset"><i class="fas fa-redo"></i></button>
+                </div>
+                <div class="pomo-status" id="pomo-status">FOCUS</div>
+            </div>
+
+            <div id="focus-container" class="focus-wrapper transition-element">
+                <h4 class="focus-label" data-i18n="lblFocus">DAILY FOCUS</h4>
+                <div class="focus-input-group">
+                    <label class="custom-checkbox">
+                        <input type="checkbox" id="focus-checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <input type="text" id="focus-text" data-i18n-placeholder="focusPlaceholder" autocomplete="off">
+                    <button id="focus-clear"><i class="fas fa-times"></i></button>
+                </div>
+            </div>
+
+            <div id="shortcuts-grid" class="shortcuts-area transition-element">
+            </div>
+        </section>
+
+        <footer class="bottom-bar transition-element">
+            <div id="quote-wrapper" class="quote-box glass-pill hidden">
+                <span id="quote-content">"..."</span>
+                <span id="quote-author" class="author"></span>
+            </div>
+
+            <div id="app-footer" class="footer-attribution">
+                <span data-i18n="footerDeveloped">Developed by</span> 
+                <a href="https://loruv.com" target="_blank">loruv.com</a> 
+                <span data-i18n="footerRights">All rights reserved.</span>
+            </div>
+
+            <button id="todo-toggle-btn" class="glass-pill">
+                <i class="fas fa-check-square"></i> <span data-i18n="lblTodo">Todo</span>
+            </button>
+        </footer>
+
+        <div id="todo-panel" class="side-panel hidden">
+            <div class="panel-header" style="display:flex; justify-content:space-between; align-items:center;">
+                <h3 data-i18n="lblTodo" style="margin:0; border:none">Todo List</h3>
+                <button id="todo-close" style="background:none; border:none; color:white; cursor:pointer"><i class="fas fa-times"></i></button>
+            </div>
+            <ul id="todo-list"></ul>
+            <div class="todo-input-area">
+                <input type="text" id="new-todo" data-i18n-placeholder="placeholderTodo">
+            </div>
+        </div>
+
+    </main>
+
+    <div id="settings-modal" class="modal-overlay hidden">
+        <div class="glass-card settings-card slide-up">
+            <div class="settings-sidebar">
+                <h2 data-i18n="settingsTitle">Settings</h2>
+                <button class="tab-btn active" data-tab="tab-general"><i class="fas fa-sliders-h"></i> <span data-i18n="tabGeneral">General</span></button>
+                <button class="tab-btn" data-tab="tab-appearance"><i class="fas fa-image"></i> <span data-i18n="tabAppearance">Appearance</span></button>
+                <button class="tab-btn" data-tab="tab-zen"><i class="fas fa-eye-slash"></i> <span data-i18n="tabZen">Zen Mode</span></button>
+                <button class="tab-btn" data-tab="tab-sounds"><i class="fas fa-music"></i> <span data-i18n="tabSounds">Sounds</span></button>
+                <div class="spacer"></div>
+                <button id="settings-close-btn" class="close-btn" data-i18n="saveCloseBtn">Save & Close</button>
+            </div>
+            
+            <div class="settings-content">
+                <div id="tab-general" class="tab-pane active">
+                    <h3 data-i18n="setGeneralTitle">General Settings</h3>
+                    
+                    <div class="input-group" style="margin-bottom:15px">
+                        <label data-i18n="langLabel">Language</label>
+                        <select id="set-lang" class="glass-input">
+                            <option value="en">English</option>
+                            <option value="tr">Türkçe</option>
+                            <option value="de">Deutsch</option>
+                            <option value="es">Español</option>
+                        </select>
+                    </div>
+
+                    <div style="display:flex; gap:10px; margin-bottom:20px;">
+                        <div class="input-group" style="flex:1">
+                            <label data-i18n="namePlaceholder">Name</label>
+                            <input type="text" id="set-username" class="glass-input">
+                        </div>
+                        <div class="input-group" style="flex:1">
+                            <label data-i18n="lblWeather">City</label>
+                            <input type="text" id="set-city" class="glass-input">
+                        </div>
+                    </div>
+                    
+                    <h3 data-i18n="lblVisibility">Visibility</h3>
+                    <div class="toggle-grid">
+                        <div class="toggle-row">
+                            <span data-i18n="tglClock">Clock</span> 
+                            <label class="switch"><input type="checkbox" id="check-clock"><span class="slider round"></span></label>
+                        </div>
+                        <div class="toggle-row">
+                            <span data-i18n="tglGreeting">Greeting</span> 
+                            <label class="switch"><input type="checkbox" id="check-greeting"><span class="slider round"></span></label>
+                        </div>
+                        <div class="toggle-row">
+                            <span data-i18n="tglSearch">Search Bar</span> 
+                            <label class="switch"><input type="checkbox" id="check-search"><span class="slider round"></span></label>
+                        </div>
+                        <div class="toggle-row">
+                            <span data-i18n="tglWeather">Weather</span> 
+                            <label class="switch"><input type="checkbox" id="check-weather"><span class="slider round"></span></label>
+                        </div>
+                        <div class="toggle-row">
+                            <span data-i18n="tglFocus">Focus Input</span> 
+                            <label class="switch"><input type="checkbox" id="check-focus"><span class="slider round"></span></label>
+                        </div>
+                        <div class="toggle-row">
+                            <span data-i18n="tglQuote">Daily Quote</span> 
+                            <label class="switch"><input type="checkbox" id="check-quote"><span class="slider round"></span></label>
+                        </div>
+                        <div class="toggle-row">
+                            <span data-i18n="tglPomodoro">Pomodoro Timer</span> 
+                            <label class="switch"><input type="checkbox" id="check-pomodoro"><span class="slider round"></span></label>
+                        </div>
+                        <div class="toggle-row">
+                            <span data-i18n="tglShortcuts">Show Shortcuts</span> 
+                            <label class="switch"><input type="checkbox" id="check-shortcuts"><span class="slider round"></span></label>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="tab-appearance" class="tab-pane">
+                    <h3 data-i18n="setAppearanceTitle">Appearance</h3>
+                    
+                    <div class="toggle-grid">
+                        <div class="toggle-row">
+                            <span data-i18n="tgl24h">24h Format</span> 
+                            <label class="switch"><input type="checkbox" id="check-24h"><span class="slider round"></span></label>
+                        </div>
+                        <div class="toggle-row">
+                            <span data-i18n="tglSeconds">Show Seconds</span> 
+                            <label class="switch"><input type="checkbox" id="check-seconds"><span class="slider round"></span></label>
+                        </div>
+                        <div class="toggle-row">
+                            <span data-i18n="tglShortcutTitles">Show Shortcut Titles</span> 
+                            <label class="switch"><input type="checkbox" id="check-shortcut-titles"><span class="slider round"></span></label>
+                        </div>
+                    </div>
+
+                    <div class="input-group" style="margin-bottom:15px">
+                        <label data-i18n="lblOverlay">Overlay Opacity</label>
+                        <input type="range" id="overlay-range" min="0" max="1" step="0.1" style="width:100%">
+                    </div>
+                    <div class="input-group" style="margin-bottom:15px">
+                        <label data-i18n="lblBlur">Background Blur (px)</label>
+                        <input type="range" id="blur-range" min="0" max="20" step="1" style="width:100%">
+                    </div>
+
+                    <h3 data-i18n="setBgSource">Background Source</h3>
+                    <select id="bg-source-select" class="glass-input" style="margin-bottom:10px">
+                        <option value="collection" data-i18n="optCollection">FocusTab Collection</option>
+                        <option value="custom" data-i18n="optCustom">Custom URL</option>
+                    </select>
+
+                    <div id="custom-bg-options" class="hidden">
+                        <input type="text" id="bg-custom-url" class="glass-input" placeholder="https://..." >
+                        <button id="bg-save-custom" class="primary-btn small" style="margin-top:5px" data-i18n="btnApply">Apply</button>
+                    </div>
+                    <button id="bg-refresh-force" class="primary-btn small" style="margin-top:15px" data-i18n="btnNewBg">New Random Background</button>
+                </div>
+
+                <div id="tab-zen" class="tab-pane">
+                    <h3 data-i18n="zenSettingsTitle">Zen Mode Settings</h3>
+                    <p style="opacity:0.7; font-size:0.9rem; margin-bottom:15px;" data-i18n="zenDesc">Select elements to HIDE when Zen Mode is active.</p>
+                    
+                    <div class="toggle-grid">
+                        <div class="toggle-row">
+                            <span data-i18n="tglClock">Clock</span> 
+                            <label class="switch"><input type="checkbox" id="zen-check-clock"><span class="slider round"></span></label>
+                        </div>
+                        <div class="toggle-row">
+                            <span data-i18n="tglGreeting">Greeting</span> 
+                            <label class="switch"><input type="checkbox" id="zen-check-greeting"><span class="slider round"></span></label>
+                        </div>
+
+                        <div class="toggle-row">
+                            <span data-i18n="tglSearch">Search Bar</span> 
+                            <label class="switch"><input type="checkbox" id="zen-check-search"><span class="slider round"></span></label>
+                        </div>
+                        <div class="toggle-row">
+                            <span data-i18n="tglWeather">Weather</span> 
+                            <label class="switch"><input type="checkbox" id="zen-check-weather"><span class="slider round"></span></label>
+                        </div>
+                        <div class="toggle-row">
+                            <span data-i18n="tglShortcuts">Shortcuts</span> 
+                            <label class="switch"><input type="checkbox" id="zen-check-shortcuts"><span class="slider round"></span></label>
+                        </div>
+                        <div class="toggle-row">
+                            <span data-i18n="tglQuote">Quote</span> 
+                            <label class="switch"><input type="checkbox" id="zen-check-quote"><span class="slider round"></span></label>
+                        </div>
+                        <div class="toggle-row">
+                            <span data-i18n="tglFocus">Focus Input</span> 
+                            <label class="switch"><input type="checkbox" id="zen-check-focus"><span class="slider round"></span></label>
+                        </div>
+                        <div class="toggle-row">
+                            <span data-i18n="lblTodo">Todo List</span> 
+                            <label class="switch"><input type="checkbox" id="zen-check-todo"><span class="slider round"></span></label>
+                        </div>
+                        <div class="toggle-row">
+                            <span data-i18n="tglPomodoro">Pomodoro</span> 
+                            <label class="switch"><input type="checkbox" id="zen-check-pomodoro"><span class="slider round"></span></label>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="tab-sounds" class="tab-pane">
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:15px">
+                        <h3 data-i18n="soundsTitle" style="margin:0">Sound Mixer</h3>
+                        <button id="stop-all-sounds" class="primary-btn small" style="background:#ff4757; color:white; border:none"><i class="fas fa-stop"></i> <span data-i18n="btnStopAll">Stop All</span></button>
+                    </div>
+                    
+                    <div class="sound-grid"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <audio id="audio-rain" loop src="assets/audio/rain.mp3"></audio>
+    <audio id="audio-fire" loop src="assets/audio/fire.mp3"></audio>
+    <audio id="audio-birds" loop src="assets/audio/birds.mp3"></audio>
+    <audio id="audio-cafe" loop src="assets/audio/cafe.mp3"></audio>
+    <audio id="audio-thunder" loop src="assets/audio/thunder.mp3"></audio>
+    <audio id="audio-river" loop src="assets/audio/river.mp3"></audio>
+    <audio id="audio-waves" loop src="assets/audio/waves.mp3"></audio>
+    <audio id="audio-washing_machine" loop src="assets/audio/washing_machine.mp3"></audio>
+    <audio id="audio-shower" loop src="assets/audio/shower.mp3"></audio>
+    <audio id="audio-vacuum" loop src="assets/audio/vacuum.mp3"></audio>
+    <audio id="audio-keyboard" loop src="assets/audio/keyboard.mp3"></audio>
+    <audio id="audio-baby" loop src="assets/audio/baby.mp3"></audio>
+    <audio id="audio-traffic" loop src="assets/audio/traffic.mp3"></audio>
+    <audio id="audio-train" loop src="assets/audio/train.mp3"></audio>
+    <audio id="audio-forest" loop src="assets/audio/forest.mp3"></audio>
+    <audio id="audio-night" loop src="assets/audio/night.mp3"></audio>
+    <audio id="audio-fan" loop src="assets/audio/fan.mp3"></audio>
+    <audio id="audio-white_noise" loop src="assets/audio/white_noise.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>

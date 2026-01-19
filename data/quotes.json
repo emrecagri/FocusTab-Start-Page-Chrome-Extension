@@ -1,0 +1,1832 @@
+[
+  {
+    "id": 1,
+    "text": {
+      "en": "Everything has beauty, but not everyone sees it.",
+      "tr": "Her şeyin bir güzelliği vardır ama herkes bunu göremez.",
+      "es": "Toda cosa tiene su belleza, pero no todos la ven.",
+      "de": "Alles hat seine Schönheit, aber nicht jeder sieht sie."
+    },
+    "author": { "en": "Confucius" }
+  },
+  {
+    "id": 2,
+    "text": {
+      "en": "Simplicity is the ultimate sophistication.",
+      "tr": "Sadelik en yüksek gelişmişlik düzeyidir.",
+      "es": "La simplicidad es la máxima sofisticación.",
+      "de": "Einfachheit ist die höchste Form der Raffinesse."
+    },
+    "author": { "en": "Leonardo da Vinci" }
+  },
+  {
+    "id": 3,
+    "text": {
+      "en": "The only way to do great work is to love what you do.",
+      "tr": "Harika işler yapmanın tek yolu, yaptığın işi sevmektir.",
+      "es": "La única forma de hacer un gran trabajo es amar lo que haces.",
+      "de": "Der einzige Weg, großartige Arbeit zu leisten, ist zu lieben, was man tut."
+    },
+    "author": { "en": "Steve Jobs" }
+  },
+  {
+    "id": 4,
+    "text": {
+      "en": "Believe you can and you're halfway there.",
+      "tr": "Yapabileceğine inan, yolun yarısındasın.",
+      "es": "Cree que puedes y ya estarás a medio camino.",
+      "de": "Glaube, dass du es kannst, und du bist schon halb dort."
+    },
+    "author": { "en": "Theodore Roosevelt" }
+  },
+  {
+    "id": 5,
+    "text": {
+      "en": "Act as if what you do makes a difference. It does.",
+      "tr": "Yaptıkların fark yaratıyormuş gibi davran. Çünkü yaratıyor.",
+      "es": "Actúa como si lo que haces marcara la diferencia. Lo hace.",
+      "de": "Handle so, als ob das, was du tust, einen Unterschied macht. Das tut es."
+    },
+    "author": { "en": "William James" }
+  },
+  {
+    "id": 6,
+    "text": {
+      "en": "Be the change that you wish to see in the world.",
+      "tr": "Dünyada görmek istediğin değişim sen ol.",
+      "es": "Sé el cambio que quieres ver en el mundo.",
+      "de": "Sei du selbst die Veränderung, die du dir wünschst für diese Welt."
+    },
+    "author": { "en": "Mahatma Gandhi" }
+  },
+  {
+    "id": 7,
+    "text": {
+      "en": "In the middle of every difficulty lies opportunity.",
+      "tr": "Her zorluğun ortasında bir fırsat yatar.",
+      "es": "En medio de cada dificultad yace la oportunidad.",
+      "de": "In der Mitte von Schwierigkeiten liegen die Möglichkeiten."
+    },
+    "author": { "en": "Albert Einstein" }
+  },
+  {
+    "id": 8,
+    "text": {
+      "en": "It always seems impossible until it is done.",
+      "tr": "Yapılana kadar her şey imkansız görünür.",
+      "es": "Siempre parece imposible hasta que se hace.",
+      "de": "Es scheint immer unmöglich, bis es getan ist."
+    },
+    "author": { "en": "Nelson Mandela" }
+  },
+  {
+    "id": 9,
+    "text": {
+      "en": "Happiness depends upon ourselves.",
+      "tr": "Mutluluk bize bağlıdır.",
+      "es": "La felicidad depende de nosotros mismos.",
+      "de": "Das Glück hängt von uns selbst ab."
+    },
+    "author": { "en": "Aristotle" }
+  },
+  {
+    "id": 10,
+    "text": {
+      "en": "Turn your wounds into wisdom.",
+      "tr": "Yaralarını bilgeliğe dönüştür.",
+      "es": "Transforma tus heridas en sabiduría.",
+      "de": "Verwandle deine Wunden in Weisheit."
+    },
+    "author": { "en": "Oprah Winfrey" }
+  },
+  {
+    "id": 11,
+    "text": {
+      "en": "What we think, we become.",
+      "tr": "Ne düşünürsek, ona dönüşürüz.",
+      "es": "En lo que pensamos, nos convertimos.",
+      "de": "Was wir denken, das werden wir."
+    },
+    "author": { "en": "Buddha" }
+  },
+  {
+    "id": 12,
+    "text": {
+      "en": "The best way to predict the future is to create it.",
+      "tr": "Geleceği tahmin etmenin en iyi yolu onu yaratmaktır.",
+      "es": "La mejor forma de predecir el futuro es crearlo.",
+      "de": "Der beste Weg, die Zukunft vorherzusagen, ist, sie zu gestalten."
+    },
+    "author": { "en": "Abraham Lincoln" }
+  },
+  {
+    "id": 13,
+    "text": {
+      "en": "If you are going through hell, keep going.",
+      "tr": "Eğer cehennemin içinden geçiyorsan, yürümeye devam et.",
+      "es": "Si estás pasando por un infierno, sigue adelante.",
+      "de": "Wenn du durch die Hölle gehst, geh weiter."
+    },
+    "author": { "en": "Winston Churchill" }
+  },
+  {
+    "id": 14,
+    "text": {
+      "en": "Strive not to be a success, but rather to be of value.",
+      "tr": "Başarılı olmaya değil, değerli olmaya çalışın.",
+      "es": "No busques ser exitoso, sino ser valioso.",
+      "de": "Versuche nicht, ein Mann des Erfolgs zu werden, sondern lieber ein Mann von Wert."
+    },
+    "author": { "en": "Albert Einstein" }
+  },
+  {
+    "id": 15,
+    "text": {
+      "en": "I have not failed. I've just found 10,000 ways that won't work.",
+      "tr": "Ben başarısız olmadım. Sadece işe yaramayan 10.000 yol buldum.",
+      "es": "No he fallado. Solo he encontrado 10.000 formas que no funcionan.",
+      "de": "Ich habe nicht versagt. Ich habe nur 10.000 Wege gefunden, die nicht funktionieren."
+    },
+    "author": { "en": "Thomas A. Edison" }
+  },
+  {
+    "id": 16,
+    "text": {
+      "en": "The journey of a thousand miles begins with one step.",
+      "tr": "Bin millik bir yolculuk tek bir adımla başlar.",
+      "es": "Un viaje de mil millas comienza con un solo paso.",
+      "de": "Eine Reise von tausend Meilen beginnt mit einem einzigen Schritt."
+    },
+    "author": { "en": "Lao Tzu" }
+  },
+  {
+    "id": 17,
+    "text": {
+      "en": "That which does not kill us makes us stronger.",
+      "tr": "Bizi öldürmeyen şey güçlendirir.",
+      "es": "Lo que no nos mata nos hace más fuertes.",
+      "de": "Was uns nicht umbringt, macht uns stärker."
+    },
+    "author": { "en": "Friedrich Nietzsche" }
+  },
+  {
+    "id": 18,
+    "text": {
+      "en": "Life is what happens when you're busy making other plans.",
+      "tr": "Hayat, siz başka planlar yaparken başınıza gelenlerdir.",
+      "es": "La vida es lo que pasa mientras estás ocupado haciendo otros planes.",
+      "de": "Leben ist das, was passiert, während du fleißig dabei bist, andere Pläne zu schmieden."
+    },
+    "author": { "en": "John Lennon" }
+  },
+  {
+    "id": 19,
+    "text": {
+      "en": "To be yourself is all that you can do.",
+      "tr": "Kendin olmak yapabileceğin tek şeydir.",
+      "es": "Ser tú mismo es todo lo que puedes hacer.",
+      "de": "Du selbst zu sein, ist alles, was du tun kannst."
+    },
+    "author": { "en": "Chris Cornell" }
+  },
+  {
+    "id": 20,
+    "text": {
+      "en": "Dream big and dare to fail.",
+      "tr": "Büyük hayaller kur ve başarısız olmaktan korkma.",
+      "es": "Sueña en grande y atrévete a fallar.",
+      "de": "Träume groß und wage es zu scheitern."
+    },
+    "author": { "en": "Norman Vaughan" }
+  },
+  {
+    "id": 21,
+    "text": {
+      "en": "You miss 100% of the shots you don't take.",
+      "tr": "Atmadığın şutların %100'ünü kaçırırsın.",
+      "es": "Fallarás el 100% de los tiros que no hagas.",
+      "de": "Du verpasst 100% der Schüsse, die du nicht machst."
+    },
+    "author": { "en": "Wayne Gretzky" }
+  },
+  {
+    "id": 22,
+    "text": {
+      "en": "Keep your face always toward the sunshine—and shadows will fall behind you.",
+      "tr": "Yüzünü her zaman güneşe dön, gölgeler arkanda kalsın.",
+      "es": "Mantén tu rostro siempre hacia la luz del sol y las sombras caerán detrás de ti.",
+      "de": "Wende dein Gesicht immer der Sonne zu, dann fallen die Schatten hinter dich."
+    },
+    "author": { "en": "Walt Whitman" }
+  },
+  {
+    "id": 23,
+    "text": {
+      "en": "It is never too late to be what you might have been.",
+      "tr": "Olabileceğin kişi olmak için asla geç değildir.",
+      "es": "Nunca es demasiado tarde para ser lo que podrías haber sido.",
+      "de": "Es ist nie zu spät, das zu werden, was man hätte sein können."
+    },
+    "author": { "en": "George Eliot" }
+  },
+  {
+    "id": 24,
+    "text": {
+      "en": "The unexamined life is not worth living.",
+      "tr": "Sorgulanmamış bir hayat yaşamaya değmez.",
+      "es": "Una vida no examinada no merece la pena ser vivida.",
+      "de": "Ein unerforschtes Leben ist nicht lebenswert."
+    },
+    "author": { "en": "Socrates" }
+  },
+  {
+    "id": 25,
+    "text": {
+      "en": "Everything you can imagine is real.",
+      "tr": "Hayal edebildiğin her şey gerçektir.",
+      "es": "Todo lo que puedes imaginar es real.",
+      "de": "Alles, was du dir vorstellen kannst, ist real."
+    },
+    "author": { "en": "Pablo Picasso" }
+  },
+  {
+    "id": 26,
+    "text": {
+      "en": "Knowledge is power.",
+      "tr": "Bilgi güçtür.",
+      "es": "El conocimiento es poder.",
+      "de": "Wissen ist Macht."
+    },
+    "author": { "en": "Francis Bacon" }
+  },
+  {
+    "id": 27,
+    "text": {
+      "en": "I think, therefore I am.",
+      "tr": "Düşünüyorum, öyleyse varım.",
+      "es": "Pienso, luego existo.",
+      "de": "Ich denke, also bin ich."
+    },
+    "author": { "en": "René Descartes" }
+  },
+  {
+    "id": 28,
+    "text": {
+      "en": "Love is all you need.",
+      "tr": "İhtiyacın olan tek şey aşktır.",
+      "es": "El amor es todo lo que necesitas.",
+      "de": "Liebe ist alles, was du brauchst."
+    },
+    "author": { "en": "The Beatles" }
+  },
+  {
+    "id": 29,
+    "text": {
+      "en": "Where there is love there is life.",
+      "tr": "Aşkın olduğu yerde hayat vardır.",
+      "es": "Donde hay amor, hay vida.",
+      "de": "Wo Liebe ist, da ist Leben."
+    },
+    "author": { "en": "Mahatma Gandhi" }
+  },
+  {
+    "id": 30,
+    "text": {
+      "en": "Genius is one percent inspiration, ninety-nine percent perspiration.",
+      "tr": "Deha yüzde bir ilham, yüzde doksan dokuz terdir.",
+      "es": "El genio es un uno por ciento de inspiración y un noventa y nueve por ciento de transpiración.",
+      "de": "Genie ist ein Prozent Inspiration und neunundneunzig Prozent Transpiration."
+    },
+    "author": { "en": "Thomas A. Edison" }
+  },
+  {
+    "id": 31,
+    "text": {
+      "en": "A person who never made a mistake never tried anything new.",
+      "tr": "Hiç hata yapmamış bir insan, hiç yeni bir şey denememiştir.",
+      "es": "Una persona que nunca cometió un error nunca intentó nada nuevo.",
+      "de": "Wer noch nie einen Fehler gemacht hat, hat sich noch nie an Neuem versucht."
+    },
+    "author": { "en": "Albert Einstein" }
+  },
+  {
+    "id": 32,
+    "text": {
+      "en": "The only thing we have to fear is fear itself.",
+      "tr": "Korkmamız gereken tek şey korkunun kendisidir.",
+      "es": "A lo único que tenemos que temer es al miedo mismo.",
+      "de": "Das Einzige, was wir zu fürchten haben, ist die Furcht selbst."
+    },
+    "author": { "en": "Franklin D. Roosevelt" }
+  },
+  {
+    "id": 33,
+    "text": {
+      "en": "Darkness cannot drive out darkness: only light can do that.",
+      "tr": "Karanlık karanlığı defedemez; bunu sadece ışık yapabilir.",
+      "es": "La oscuridad no puede expulsar a la oscuridad: solo la luz puede hacerlo.",
+      "de": "Dunkelheit kann Dunkelheit nicht vertreiben; nur Licht kann das."
+    },
+    "author": { "en": "Martin Luther King Jr." }
+  },
+  {
+    "id": 34,
+    "text": {
+      "en": "Well done is better than well said.",
+      "tr": "İyi yapılmış, iyi söylenmişten daha iyidir.",
+      "es": "Bien hecho es mejor que bien dicho.",
+      "de": "Gut getan ist besser als gut gesagt."
+    },
+    "author": { "en": "Benjamin Franklin" }
+  },
+  {
+    "id": 35,
+    "text": {
+      "en": "The best revenge is massive success.",
+      "tr": "En iyi intikam, büyük bir başarıdır.",
+      "es": "La mejor venganza es el éxito masivo.",
+      "de": "Die beste Rache ist massiver Erfolg."
+    },
+    "author": { "en": "Frank Sinatra" }
+  },
+  {
+    "id": 36,
+    "text": {
+      "en": "Live as if you were to die tomorrow.",
+      "tr": "Yarın ölecekmişsin gibi yaşa.",
+      "es": "Vive como si fueras a morir mañana.",
+      "de": "Lebe, als würdest du morgen sterben."
+    },
+    "author": { "en": "Mahatma Gandhi" }
+  },
+  {
+    "id": 37,
+    "text": {
+      "en": "Learn as if you were to live forever.",
+      "tr": "Sonsuza kadar yaşayacakmışsın gibi öğren.",
+      "es": "Aprende como si fueras a vivir para siempre.",
+      "de": "Lerne, als würdest du ewig leben."
+    },
+    "author": { "en": "Mahatma Gandhi" }
+  },
+  {
+    "id": 38,
+    "text": {
+      "en": "We accept the love we think we deserve.",
+      "tr": "Hak ettiğimizi düşündüğümüz sevgiyi kabul ederiz.",
+      "es": "Aceptamos el amor que creemos merecer.",
+      "de": "Wir akzeptieren die Liebe, die wir zu verdienen glauben."
+    },
+    "author": { "en": "Stephen Chbosky" }
+  },
+  {
+    "id": 39,
+    "text": {
+      "en": "Without music, life would be a mistake.",
+      "tr": "Müzik olmasaydı hayat bir hata olurdu.",
+      "es": "Sin música, la vida sería un error.",
+      "de": "Ohne Musik wäre das Leben ein Irrtum."
+    },
+    "author": { "en": "Friedrich Nietzsche" }
+  },
+  {
+    "id": 40,
+    "text": {
+      "en": "What doesn't kill you makes you stronger.",
+      "tr": "Seni öldürmeyen şey güçlendirir.",
+      "es": "Lo que no te mata te hace más fuerte.",
+      "de": "Was dich nicht umbringt, macht dich stärker."
+    },
+    "author": { "en": "Friedrich Nietzsche" }
+  },
+  {
+    "id": 41,
+    "text": {
+      "en": "Imperfection is beauty, madness is genius.",
+      "tr": "Kusurluluk güzelliktir, delilik dehadır.",
+      "es": "La imperfección es belleza, la locura es genio.",
+      "de": "Unvollkommenheit ist Schönheit, Wahnsinn ist Genialität."
+    },
+    "author": { "en": "Marilyn Monroe" }
+  },
+  {
+    "id": 42,
+    "text": {
+      "en": "There is no charm equal to tenderness of heart.",
+      "tr": "Kalp hassasiyetine eşit bir çekicilik yoktur.",
+      "es": "No hay encanto igual a la ternura del corazón.",
+      "de": "Es gibt keinen Charme, der der Zärtlichkeit des Herzens gleicht."
+    },
+    "author": { "en": "Jane Austen" }
+  },
+  {
+    "id": 43,
+    "text": {
+      "en": "Honesty is the first chapter in the book of wisdom.",
+      "tr": "Dürüstlük, bilgelik kitabının ilk bölümüdür.",
+      "es": "La honestidad es el primer capítulo en el libro de la sabiduría.",
+      "de": "Ehrlichkeit ist das erste Kapitel im Buch der Weisheit."
+    },
+    "author": { "en": "Thomas Jefferson" }
+  },
+  {
+    "id": 44,
+    "text": {
+      "en": "Not all those who wander are lost.",
+      "tr": "Her gezinen kaybolmuş değildir.",
+      "es": "No todos los que vagan están perdidos.",
+      "de": "Nicht alle, die wandern, sind verloren."
+    },
+    "author": { "en": "J.R.R. Tolkien" }
+  },
+  {
+    "id": 45,
+    "text": {
+      "en": "Do what you can, with what you have, where you are.",
+      "tr": "Bulunduğun yerde, elindekilerle, yapabileceğini yap.",
+      "es": "Haz lo que puedas, con lo que tengas, donde estés.",
+      "de": "Tu, was du kannst, mit dem, was du hast, dort, wo du bist."
+    },
+    "author": { "en": "Theodore Roosevelt" }
+  },
+  {
+    "id": 46,
+    "text": {
+      "en": "Happiness is not something ready made. It comes from your own actions.",
+      "tr": "Mutluluk hazır bir şey değildir. Kendi eylemlerinden gelir.",
+      "es": "La felicidad no es algo hecho. Proviene de tus propias acciones.",
+      "de": "Glück ist nichts Fertiges. Es kommt von deinen eigenen Handlungen."
+    },
+    "author": { "en": "Dalai Lama" }
+  },
+  {
+    "id": 47,
+    "text": {
+      "en": "The mind is everything. What you think you become.",
+      "tr": "Zihin her şeydir. Ne düşünürsen ona dönüşürsün.",
+      "es": "La mente es todo. En lo que piensas te conviertes.",
+      "de": "Der Geist ist alles. Was du denkst, wirst du."
+    },
+    "author": { "en": "Buddha" }
+  },
+  {
+    "id": 48,
+    "text": {
+      "en": "Change your thoughts and you change your world.",
+      "tr": "Düşüncelerini değiştir, dünyan değişsin.",
+      "es": "Cambia tus pensamientos y cambias tu mundo.",
+      "de": "Ändere deine Gedanken und du änderst deine Welt."
+    },
+    "author": { "en": "Norman Vincent Peale" }
+  },
+  {
+    "id": 49,
+    "text": {
+      "en": "It does not matter how slowly you go as long as you do not stop.",
+      "tr": "Durmadığın sürece ne kadar yavaş gittiğinin bir önemi yoktur.",
+      "es": "No importa lo lento que vayas mientras no te detengas.",
+      "de": "Es spielt keine Rolle, wie langsam du gehst, solange du nicht anhältst."
+    },
+    "author": { "en": "Confucius" }
+  },
+  {
+    "id": 50,
+    "text": {
+      "en": "If you tell the truth, you don't have to remember anything.",
+      "tr": "Eğer doğruyu söylersen, hiçbir şeyi hatırlamak zorunda kalmazsın.",
+      "es": "Si dices la verdad, no tienes que recordar nada.",
+      "de": "Wenn du die Wahrheit sagst, musst du dich an nichts erinnern."
+    },
+    "author": { "en": "Mark Twain" }
+  },
+  {
+    "id": 51,
+    "text": {
+      "en": "A friend is someone who knows all about you and still loves you.",
+      "tr": "Dost, senin hakkında her şeyi bilen ve yine de seni seven kimsedir.",
+      "es": "Un amigo es alguien que lo sabe todo de ti y aún así te ama.",
+      "de": "Ein Freund ist jemand, der alles über dich weiß und dich trotzdem liebt."
+    },
+    "author": { "en": "Elbert Hubbard" }
+  },
+  {
+    "id": 52,
+    "text": {
+      "en": "Always forgive your enemies; nothing annoys them so much.",
+      "tr": "Düşmanlarını her zaman affet; hiçbir şey onları bu kadar sinir edemez.",
+      "es": "Perdona siempre a tus enemigos; nada les molesta tanto.",
+      "de": "Vergib immer deinen Feinden; nichts ärgert sie so sehr."
+    },
+    "author": { "en": "Oscar Wilde" }
+  },
+  {
+    "id": 53,
+    "text": {
+      "en": "To live is the rarest thing in the world. Most people exist, that is all.",
+      "tr": "Yaşamak dünyadaki en nadir şeydir. Çoğu insan sadece var olur, hepsi bu.",
+      "es": "Vivir es lo más raro del mundo. La mayoría de la gente existe, eso es todo.",
+      "de": "Zu leben ist das Seltenste auf der Welt. Die meisten Menschen existieren, das ist alles."
+    },
+    "author": { "en": "Oscar Wilde" }
+  },
+  {
+    "id": 54,
+    "text": {
+      "en": "Only a life lived for others is a life worthwhile.",
+      "tr": "Sadece başkaları için yaşanan bir hayat yaşamaya değerdir.",
+      "es": "Solo una vida vivida para los demás es una vida que vale la pena.",
+      "de": "Nur ein Leben, das für andere gelebt wird, ist ein lebenswertes Leben."
+    },
+    "author": { "en": "Albert Einstein" }
+  },
+  {
+    "id": 55,
+    "text": {
+      "en": "You only live once, but if you do it right, once is enough.",
+      "tr": "Sadece bir kez yaşarsın, ama doğru yaparsan bir kez yeterlidir.",
+      "es": "Solo se vive una vez, pero si lo haces bien, una vez es suficiente.",
+      "de": "Du lebst nur einmal, aber wenn du es richtig machst, ist einmal genug."
+    },
+    "author": { "en": "Mae West" }
+  },
+  {
+    "id": 56,
+    "text": {
+      "en": "In three words I can sum up everything I've learned about life: it goes on.",
+      "tr": "Hayat hakkında öğrendiğim her şeyi üç kelimeyle özetleyebilirim: hayat devam ediyor.",
+      "es": "En tres palabras puedo resumir todo lo que he aprendido sobre la vida: sigue adelante.",
+      "de": "In drei Worten kann ich alles zusammenfassen, was ich über das Leben gelernt habe: Es geht weiter."
+    },
+    "author": { "en": "Robert Frost" }
+  },
+  {
+    "id": 57,
+    "text": {
+      "en": "Don't walk in front of me… I may not follow. Don't walk behind me… I may not lead. Walk beside me… just be my friend.",
+      "tr": "Önümden yürüme... Takip etmeyebilirim. Arkamdan yürüme... Liderlik etmeyebilirim. Yanımda yürü... sadece arkadaşım ol.",
+      "es": "No camines delante de mí... puede que no te siga. No camines detrás de mí... puede que no te guíe. Camina a mi lado... solo sé mi amigo.",
+      "de": "Geh nicht vor mir her... ich folge vielleicht nicht. Geh nicht hinter mir her... ich führe vielleicht nicht. Geh neben mir... sei einfach mein Freund."
+    },
+    "author": { "en": "Albert Camus" }
+  },
+  {
+    "id": 58,
+    "text": {
+      "en": "If you want to live a happy life, tie it to a goal, not to people or things.",
+      "tr": "Mutlu bir hayat yaşamak istiyorsan, onu insanlara veya eşyalara değil, bir amaca bağla.",
+      "es": "Si quieres vivir una vida feliz, átala a una meta, no a personas o cosas.",
+      "de": "Wenn du ein glückliches Leben führen willst, verbinde es mit einem Ziel, nicht mit Menschen oder Dingen."
+    },
+    "author": { "en": "Albert Einstein" }
+  },
+  {
+    "id": 59,
+    "text": {
+      "en": "Everything happens for a reason.",
+      "tr": "Her şeyin bir sebebi vardır.",
+      "es": "Todo sucede por una razón.",
+      "de": "Alles geschieht aus einem Grund."
+    },
+    "author": { "en": "Unknown" }
+  },
+  {
+    "id": 60,
+    "text": {
+      "en": "Love is blind.",
+      "tr": "Aşk kördür.",
+      "es": "El amor es ciego.",
+      "de": "Liebe ist blind."
+    },
+    "author": { "en": "William Shakespeare" }
+  },
+  {
+    "id": 61,
+    "text": {
+      "en": "Time is money.",
+      "tr": "Vakit nakittir.",
+      "es": "El tiempo es dinero.",
+      "de": "Zeit ist Geld."
+    },
+    "author": { "en": "Benjamin Franklin" }
+  },
+  {
+    "id": 62,
+    "text": {
+      "en": "Fortune favors the bold.",
+      "tr": "Talih cesurdan yanadır.",
+      "es": "La fortuna favorece a los audaces.",
+      "de": "Das Glück begünstigt die Mutigen."
+    },
+    "author": { "en": "Virgil" }
+  },
+  {
+    "id": 63,
+    "text": {
+      "en": "Haste makes waste.",
+      "tr": "Acele işe şeytan karışır.",
+      "es": "La prisa hace el desperdicio.",
+      "de": "Eile mit Weile."
+    },
+    "author": { "en": "John Heywood" }
+  },
+  {
+    "id": 64,
+    "text": {
+      "en": "When in Rome, do as the Romans do.",
+      "tr": "Roma'dayken Romalılar gibi davran.",
+      "es": "Donde fueres, haz lo que vieres.",
+      "de": "Andere Länder, andere Sitten."
+    },
+    "author": { "en": "Saint Ambrose" }
+  },
+  {
+    "id": 65,
+    "text": {
+      "en": "Better late than never.",
+      "tr": "Geç olsun güç olmasın.",
+      "es": "Más vale tarde que nunca.",
+      "de": "Besser spät als nie."
+    },
+    "author": { "en": "Geoffrey Chaucer" }
+  },
+  {
+    "id": 66,
+    "text": {
+      "en": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+      "tr": "Başarı kesin değildir, başarısızlık ölümcül değildir: Önemli olan devam etme cesaretidir.",
+      "es": "El éxito no es definitivo, el fracaso no es fatal: lo que cuenta es el valor para continuar.",
+      "de": "Erfolg ist nicht endgültig, Misserfolg ist nicht fatal: Was zählt, ist der Mut weiterzumachen."
+    },
+    "author": { "en": "Winston Churchill" }
+  },
+  {
+    "id": 67,
+    "text": {
+      "en": "Creativity is intelligence having fun.",
+      "tr": "Yaratıcılık, zekanın eğlenmesidir.",
+      "es": "La creatividad es la inteligencia divirtiéndose.",
+      "de": "Kreativität ist Intelligenz, die Spaß hat."
+    },
+    "author": { "en": "Albert Einstein" }
+  },
+  {
+    "id": 68,
+    "text": {
+      "en": "It is better to be hated for what you are than to be loved for what you are not.",
+      "tr": "Olmadığın biri olarak sevilmektense, olduğun biri olarak nefret edilmek daha iyidir.",
+      "es": "Es mejor ser odiado por lo que eres que ser amado por lo que no eres.",
+      "de": "Es ist besser, für das gehasst zu werden, was man ist, als für das geliebt zu werden, was man nicht ist."
+    },
+    "author": { "en": "André Gide" }
+  },
+  {
+    "id": 69,
+    "text": {
+      "en": "You must do the things you think you cannot do.",
+      "tr": "Yapamayacağını düşündüğün şeyleri yapmalısın.",
+      "es": "Debes hacer las cosas que crees que no puedes hacer.",
+      "de": "Du musst die Dinge tun, von denen du glaubst, dass du sie nicht tun kannst."
+    },
+    "author": { "en": "Eleanor Roosevelt" }
+  },
+  {
+    "id": 70,
+    "text": {
+      "en": "If you judge people, you have no time to love them.",
+      "tr": "İnsanları yargılarsan, onları sevmeye zamanın kalmaz.",
+      "es": "Si juzgas a la gente, no tienes tiempo para amarla.",
+      "de": "Wenn du Menschen verurteilst, hast du keine Zeit, sie zu lieben."
+    },
+    "author": { "en": "Mother Teresa" }
+  },
+  {
+    "id": 71,
+    "text": {
+      "en": "Life is really simple, but we insist on making it complicated.",
+      "tr": "Hayat aslında çok basittir, ama biz onu karmaşık hale getirmekte ısrar ederiz.",
+      "es": "La vida es realmente simple, pero insistimos en hacerla complicada.",
+      "de": "Das Leben ist wirklich einfach, aber wir bestehen darauf, es kompliziert zu machen."
+    },
+    "author": { "en": "Confucius" }
+  },
+  {
+    "id": 72,
+    "text": {
+      "en": "The purpose of our lives is to be happy.",
+      "tr": "Hayatımızın amacı mutlu olmaktır.",
+      "es": "El propósito de nuestras vidas es ser felices.",
+      "de": "Der Sinn unseres Lebens ist es, glücklich zu sein."
+    },
+    "author": { "en": "Dalai Lama" }
+  },
+  {
+    "id": 73,
+    "text": {
+      "en": "Get busy living or get busy dying.",
+      "tr": "Ya yaşamakla uğraş ya da ölmekle.",
+      "es": "Ocúpate viviendo u ocúpate muriendo.",
+      "de": "Fang an zu leben oder fang an zu sterben."
+    },
+    "author": { "en": "Stephen King" }
+  },
+  {
+    "id": 74,
+    "text": {
+      "en": "Don't judge each day by the harvest you reap but by the seeds that you plant.",
+      "tr": "Her günü topladığın hasatla değil, ektiğin tohumlarla yargıla.",
+      "es": "No juzgues cada día por la cosecha que recoges, sino por las semillas que plantas.",
+      "de": "Beurteile nicht jeden Tag nach der Ernte, die du einfährst, sondern nach den Samen, die du pflanzt."
+    },
+    "author": { "en": "Robert Louis Stevenson" }
+  },
+  {
+    "id": 75,
+    "text": {
+      "en": "The future belongs to those who believe in the beauty of their dreams.",
+      "tr": "Gelecek, hayallerinin güzelliğine inananlarındır.",
+      "es": "El futuro pertenece a quienes creen en la belleza de sus sueños.",
+      "de": "Die Zukunft gehört denen, die an die Schönheit ihrer Träume glauben."
+    },
+    "author": { "en": "Eleanor Roosevelt" }
+  },
+  {
+    "id": 76,
+    "text": {
+      "en": "It is during our darkest moments that we must focus to see the light.",
+      "tr": "Işığı görmek için odaklanmamız gereken anlar, en karanlık anlarımızdır.",
+      "es": "Es durante nuestros momentos más oscuros cuando debemos enfocarnos para ver la luz.",
+      "de": "Gerade in unseren dunkelsten Momenten müssen wir uns konzentrieren, um das Licht zu sehen."
+    },
+    "author": { "en": "Aristotle Onassis" }
+  },
+  {
+    "id": 77,
+    "text": {
+      "en": "Do not go where the path may lead, go instead where there is no path and leave a trail.",
+      "tr": "Yolun götürdüğü yere gitme, yol olmayan yere git ve iz bırak.",
+      "es": "No vayas por donde el camino te lleve, ve por donde no hay camino y deja huella.",
+      "de": "Gehe nicht, wohin der Weg führen mag, sondern dorthin, wo kein Weg ist, und hinterlasse eine Spur."
+    },
+    "author": { "en": "Ralph Waldo Emerson" }
+  },
+  {
+    "id": 78,
+    "text": {
+      "en": "In the end, it's not the years in your life that count. It's the life in your years.",
+      "tr": "Sonunda önemli olan hayatınızdaki yıllar değil, yıllarınızdaki hayattır.",
+      "es": "Al final, no son los años en tu vida lo que cuenta. Es la vida en tus años.",
+      "de": "Am Ende zählen nicht die Jahre in deinem Leben. Es zählt das Leben in deinen Jahren."
+    },
+    "author": { "en": "Abraham Lincoln" }
+  },
+  {
+    "id": 79,
+    "text": {
+      "en": "Life is either a daring adventure or nothing at all.",
+      "tr": "Hayat ya cesur bir maceradır ya da hiçbir şeydir.",
+      "es": "La vida es una aventura atrevida o no es nada.",
+      "de": "Das Leben ist entweder ein wagemutiges Abenteuer oder gar nichts."
+    },
+    "author": { "en": "Helen Keller" }
+  },
+  {
+    "id": 80,
+    "text": {
+      "en": "Many of life's failures are people who did not realize how close they were to success when they gave up.",
+      "tr": "Hayattaki başarısızlıkların çoğu, pes ettiklerinde başarıya ne kadar yakın olduklarını fark etmeyen insanlardır.",
+      "es": "Muchos de los fracasos de la vida son personas que no se dieron cuenta de lo cerca que estaban del éxito cuando se rindieron.",
+      "de": "Viele der Misserfolge im Leben sind Menschen, die nicht erkannten, wie nahe sie dem Erfolg waren, als sie aufgaben."
+    },
+    "author": { "en": "Thomas A. Edison" }
+  },
+  {
+    "id": 81,
+    "text": {
+      "en": "If you want to lift yourself up, lift up someone else.",
+      "tr": "Kendini yükseltmek istiyorsan, başkasını yükselt.",
+      "es": "Si quieres elevarte, eleva a alguien más.",
+      "de": "Wenn du dich selbst erheben willst, dann erhebe jemand anderen."
+    },
+    "author": { "en": "Booker T. Washington" }
+  },
+  {
+    "id": 82,
+    "text": {
+      "en": "Great things are not done by impulse, but by a series of small things brought together.",
+      "tr": "Büyük şeyler dürtüyle değil, bir araya getirilen bir dizi küçük şeyle yapılır.",
+      "es": "Las grandes cosas no se hacen por impulso, sino por una serie de pequeñas cosas reunidas.",
+      "de": "Große Dinge geschehen nicht durch Impulse, sondern durch eine Reihe kleiner Dinge, die zusammengebracht werden."
+    },
+    "author": { "en": "Vincent Van Gogh" }
+  },
+  {
+    "id": 83,
+    "text": {
+      "en": "Education is the most powerful weapon which you can use to change the world.",
+      "tr": "Eğitim, dünyayı değiştirmek için kullanabileceğiniz en güçlü silahtır.",
+      "es": "La educación es el arma más poderosa que puedes usar para cambiar el mundo.",
+      "de": "Bildung ist die mächtigste Waffe, die du verwenden kannst, um die Welt zu verändern."
+    },
+    "author": { "en": "Nelson Mandela" }
+  },
+  {
+    "id": 84,
+    "text": {
+      "en": "I can resist everything except temptation.",
+      "tr": "Her şeye direnebilirim, kışkırtma hariç.",
+      "es": "Puedo resistir todo excepto la tentación.",
+      "de": "Ich kann allem widerstehen, außer der Versuchung."
+    },
+    "author": { "en": "Oscar Wilde" }
+  },
+  {
+    "id": 85,
+    "text": {
+      "en": "Always remember that you are absolutely unique. Just like everyone else.",
+      "tr": "Asla unutma ki sen tamamen eşsizsin. Tıpkı diğer herkes gibi.",
+      "es": "Recuerda siempre que eres absolutamente único. Al igual que todos los demás.",
+      "de": "Denke immer daran, dass du absolut einzigartig bist. Genau wie jeder andere auch."
+    },
+    "author": { "en": "Margaret Mead" }
+  },
+  {
+    "id": 86,
+    "text": {
+      "en": "Don't cry because it's over, smile because it happened.",
+      "tr": "Bittiği için ağlama, yaşandığı için gülümse.",
+      "es": "No llores porque terminó, sonríe porque sucedió.",
+      "de": "Weine nicht, weil es vorbei ist, sondern lächle, weil es so schön war."
+    },
+    "author": { "en": "Dr. Seuss" }
+  },
+  {
+    "id": 87,
+    "text": {
+      "en": "A room without books is like a body without a soul.",
+      "tr": "Kitapsız bir oda, ruhsuz bir beden gibidir.",
+      "es": "Una habitación sin libros es como un cuerpo sin alma.",
+      "de": "Ein Raum ohne Bücher ist wie ein Körper ohne Seele."
+    },
+    "author": { "en": "Cicero" }
+  },
+  {
+    "id": 88,
+    "text": {
+      "en": "So many books, so little time.",
+      "tr": "Çok fazla kitap, çok az zaman.",
+      "es": "Tantos libros, tan poco tiempo.",
+      "de": "So viele Bücher, so wenig Zeit."
+    },
+    "author": { "en": "Frank Zappa" }
+  },
+  {
+    "id": 89,
+    "text": {
+      "en": "Be yourself; everyone else is already taken.",
+      "tr": "Kendin ol; diğer herkes çoktan kapıldı.",
+      "es": "Sé tú mismo; los demás puestos ya están ocupados.",
+      "de": "Sei du selbst; alle anderen sind bereits vergeben."
+    },
+    "author": { "en": "Oscar Wilde" }
+  },
+  {
+    "id": 90,
+    "text": {
+      "en": "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
+      "tr": "İki şey sonsuzdur: evren ve insan aptallığı; ve evrenden emin değilim.",
+      "es": "Dos cosas son infinitas: el universo y la estupidez humana; y no estoy seguro sobre el universo.",
+      "de": "Zwei Dinge sind unendlich: das Universum und die menschliche Dummheit; aber beim Universum bin ich mir noch nicht ganz sicher."
+    },
+    "author": { "en": "Albert Einstein" }
+  },
+  {
+    "id": 91,
+    "text": {
+      "en": "No one can make you feel inferior without your consent.",
+      "tr": "İzniniz olmadan kimse size kendinizi değersiz hissettiremez.",
+      "es": "Nadie puede hacerte sentir inferior sin tu consentimiento.",
+      "de": "Niemand kann dir ohne deine Zustimmung das Gefühl geben, minderwertig zu sein."
+    },
+    "author": { "en": "Eleanor Roosevelt" }
+  },
+  {
+    "id": 92,
+    "text": {
+      "en": "We are all in the gutter, but some of us are looking at the stars.",
+      "tr": "Hepimiz bataklıktayız ama bazılarımız yıldızlara bakıyor.",
+      "es": "Todos estamos en la alcantarilla, pero algunos de nosotros estamos mirando las estrellas.",
+      "de": "Wir liegen alle in der Gosse, aber einige von uns blicken zu den Sternen."
+    },
+    "author": { "en": "Oscar Wilde" }
+  },
+  {
+    "id": 93,
+    "text": {
+      "en": "Whatever you are, be a good one.",
+      "tr": "Her ne isen, iyisi ol.",
+      "es": "Seas lo que seas, sé uno de los buenos.",
+      "de": "Was auch immer du bist, sei ein guter."
+    },
+    "author": { "en": "Abraham Lincoln" }
+  },
+  {
+    "id": 94,
+    "text": {
+      "en": "Be kind, for everyone you meet is fighting a hard battle.",
+      "tr": "Nazik ol, çünkü karşılaştığın herkes zorlu bir mücadele veriyor.",
+      "es": "Sé amable, porque todos los que conoces están librando una dura batalla.",
+      "de": "Sei freundlich, denn jeder, dem du begegnest, führt einen schweren Kampf."
+    },
+    "author": { "en": "Ian Maclaren" }
+  },
+  {
+    "id": 95,
+    "text": {
+      "en": "The weak can never forgive. Forgiveness is the attribute of the strong.",
+      "tr": "Zayıflar asla affedemez. Affetmek güçlülere özgü bir niteliktir.",
+      "es": "Los débiles nunca pueden perdonar. El perdón es el atributo de los fuertes.",
+      "de": "Schwache können nie vergeben. Vergebung ist eine Eigenschaft der Starken."
+    },
+    "author": { "en": "Mahatma Gandhi" }
+  },
+  {
+    "id": 96,
+    "text": {
+      "en": "Happiness is a warm puppy.",
+      "tr": "Mutluluk sıcak bir köpek yavrusudur.",
+      "es": "La felicidad es un cachorro cálido.",
+      "de": "Glück ist ein warmes Welpen."
+    },
+    "author": { "en": "Charles M. Schulz" }
+  },
+  {
+    "id": 97,
+    "text": {
+      "en": "A loving heart is the truest wisdom.",
+      "tr": "Seven bir kalp en gerçek bilgeliktir.",
+      "es": "Un corazón amoroso es la sabiduría más verdadera.",
+      "de": "Ein liebendes Herz ist die wahrste Weisheit."
+    },
+    "author": { "en": "Charles Dickens" }
+  },
+  {
+    "id": 98,
+    "text": {
+      "en": "Where there is love, there is no darkness.",
+      "tr": "Aşkın olduğu yerde karanlık yoktur.",
+      "es": "Donde hay amor, no hay oscuridad.",
+      "de": "Wo Liebe ist, da ist keine Dunkelheit."
+    },
+    "author": { "en": "Burundi Proverb" }
+  },
+  {
+    "id": 99,
+    "text": {
+      "en": "An eye for an eye only ends up making the whole world blind.",
+      "tr": "Göze göz, sonunda bütün dünyayı kör eder.",
+      "es": "Ojo por ojo y el mundo acabará ciego.",
+      "de": "Auge um Auge macht nur die ganze Welt blind."
+    },
+    "author": { "en": "Mahatma Gandhi" }
+  },
+  {
+    "id": 100,
+    "text": {
+      "en": "Peace begins with a smile.",
+      "tr": "Barış bir gülümsemeyle başlar.",
+      "es": "La paz comienza con una sonrisa.",
+      "de": "Der Frieden beginnt mit einem Lächeln."
+    },
+    "author": { "en": "Mother Teresa" }
+  },
+  {
+    "id": 101,
+    "text": {
+      "en": "You cannot shake hands with a clenched fist.",
+      "tr": "Sıkılı bir yumrukla el sıkışamazsınız.",
+      "es": "No se puede dar la mano con el puño cerrado.",
+      "de": "Du kannst nicht mit einer geballten Faust Hände schütteln."
+    },
+    "author": { "en": "Indira Gandhi" }
+  },
+  {
+    "id": 102,
+    "text": {
+      "en": "The greatest wealth is to live content with little.",
+      "tr": "En büyük zenginlik, azla yetinerek yaşamaktır.",
+      "es": "La mayor riqueza es vivir contento con poco.",
+      "de": "Der größte Reichtum ist, mit wenig zufrieden zu leben."
+    },
+    "author": { "en": "Plato" }
+  },
+  {
+    "id": 103,
+    "text": {
+      "en": "To know yourself, you must sacrifice the illusion that you already do.",
+      "tr": "Kendini tanımak için, zaten tanıdığın yanılgısını feda etmelisin.",
+      "es": "Para conocerte a ti mismo, debes sacrificar la ilusión de que ya lo haces.",
+      "de": "Um dich selbst zu kennen, musst du die Illusion opfern, dass du es bereits tust."
+    },
+    "author": { "en": "Vironika Tugaleva" }
+  },
+  {
+    "id": 104,
+    "text": {
+      "en": "If you want the rainbow, you gotta put up with the rain.",
+      "tr": "Gökkuşağını istiyorsan, yağmura katlanmalısın.",
+      "es": "Si quieres el arcoíris, tienes que aguantar la lluvia.",
+      "de": "Wenn du den Regenbogen willst, musst du den Regen in Kauf nehmen."
+    },
+    "author": { "en": "Dolly Parton" }
+  },
+  {
+    "id": 105,
+    "text": {
+      "en": "May you live every day of your life.",
+      "tr": "Hayatının her gününü yaşayasın.",
+      "es": "Que vivas todos los días de tu vida.",
+      "de": "Mögest du jeden Tag deines Lebens leben."
+    },
+    "author": { "en": "Jonathan Swift" }
+  },
+  {
+    "id": 106,
+    "text": {
+      "en": "The best preparation for tomorrow is doing your best today.",
+      "tr": "Yarına yapılacak en iyi hazırlık, bugün elinden gelenin en iyisini yapmaktır.",
+      "es": "La mejor preparación para el mañana es hacer lo mejor que puedas hoy.",
+      "de": "Die beste Vorbereitung auf morgen ist, heute sein Bestes zu geben."
+    },
+    "author": { "en": "H. Jackson Brown Jr." }
+  },
+  {
+    "id": 107,
+    "text": {
+      "en": "Change is the end result of all true learning.",
+      "tr": "Değişim, tüm gerçek öğrenmelerin nihai sonucudur.",
+      "es": "El cambio es el resultado final de todo verdadero aprendizaje.",
+      "de": "Veränderung ist das Endergebnis allen wahren Lernens."
+    },
+    "author": { "en": "Leo Buscaglia" }
+  },
+  {
+    "id": 108,
+    "text": {
+      "en": "Stars can't shine without darkness.",
+      "tr": "Yıldızlar karanlık olmadan parlayamaz.",
+      "es": "Las estrellas no pueden brillar sin oscuridad.",
+      "de": "Sterne können nicht ohne Dunkelheit leuchten."
+    },
+    "author": { "en": "D.H. Sidebottom" }
+  },
+  {
+    "id": 109,
+    "text": {
+      "en": "Simplicity is the key to brilliance.",
+      "tr": "Sadelik, parlak zekanın anahtarıdır.",
+      "es": "La simplicidad es la clave de la brillantez.",
+      "de": "Einfachheit ist der Schlüssel zur Brillanz."
+    },
+    "author": { "en": "Bruce Lee" }
+  },
+  {
+    "id": 110,
+    "text": {
+      "en": "Tough times never last, but tough people do.",
+      "tr": "Zor zamanlar asla sürmez, ama zorlu insanlar sürer.",
+      "es": "Los tiempos difíciles nunca duran, pero las personas duras sí.",
+      "de": "Harte Zeiten dauern nie an, aber harte Menschen schon."
+    },
+    "author": { "en": "Robert H. Schuller" }
+  },
+  {
+    "id": 111,
+    "text": {
+      "en": "Winning isn't everything, it's the only thing.",
+      "tr": "Kazanmak her şey değildir, tek şeydir.",
+      "es": "Ganar no lo es todo, es lo único.",
+      "de": "Gewinnen ist nicht alles, es ist das Einzige."
+    },
+    "author": { "en": "Vince Lombardi" }
+  },
+  {
+    "id": 112,
+    "text": {
+      "en": "Your time is limited, so don't waste it living someone else's life.",
+      "tr": "Zamanınız kısıtlı, bu yüzden onu başkasının hayatını yaşayarak harcamayın.",
+      "es": "Tu tiempo es limitado, así que no lo desperdicies viviendo la vida de otra persona.",
+      "de": "Deine Zeit ist begrenzt, also verschwende sie nicht damit, das Leben eines anderen zu leben."
+    },
+    "author": { "en": "Steve Jobs" }
+  },
+  {
+    "id": 113,
+    "text": {
+      "en": "Don't count the days, make the days count.",
+      "tr": "Günleri sayma, günleri sayılmaya değer kıl.",
+      "es": "No cuentes los días, haz que los días cuenten.",
+      "de": "Zähle nicht die Tage, sondern mach, dass die Tage zählen."
+    },
+    "author": { "en": "Muhammad Ali" }
+  },
+  {
+    "id": 114,
+    "text": {
+      "en": "A goal without a plan is just a wish.",
+      "tr": "Planı olmayan bir hedef, sadece bir dilektir.",
+      "es": "Una meta sin un plan es solo un deseo.",
+      "de": "Ein Ziel ohne Plan ist nur ein Wunsch."
+    },
+    "author": { "en": "Antoine de Saint-Exupéry" }
+  },
+  {
+    "id": 115,
+    "text": {
+      "en": "Life is 10% what happens to us and 90% how we react to it.",
+      "tr": "Hayat %10 başımıza gelenler, %90 onlara nasıl tepki verdiğimizdir.",
+      "es": "La vida es el 10% de lo que nos sucede y el 90% de cómo reaccionamos ante ello.",
+      "de": "Das Leben besteht zu 10% aus dem, was uns passiert, und zu 90% daraus, wie wir darauf reagieren."
+    },
+    "author": { "en": "Charles R. Swindoll" }
+  },
+  {
+    "id": 116,
+    "text": {
+      "en": "The secret of getting ahead is getting started.",
+      "tr": "İlerlemenin sırrı başlamaktır.",
+      "es": "El secreto para salir adelante es comenzar.",
+      "de": "Das Geheimnis des Vorwärtskommens besteht darin, anzufangen."
+    },
+    "author": { "en": "Mark Twain" }
+  },
+  {
+    "id": 117,
+    "text": {
+      "en": "Don't watch the clock; do what it does. Keep going.",
+      "tr": "Saate bakma; onun yaptığını yap. İlerlemeye devam et.",
+      "es": "No mires el reloj; haz lo que él hace. Sigue adelante.",
+      "de": "Schau nicht auf die Uhr; tu, was sie tut. Mach weiter."
+    },
+    "author": { "en": "Sam Levenson" }
+  },
+  {
+    "id": 118,
+    "text": {
+      "en": "Keep your eyes on the stars, and your feet on the ground.",
+      "tr": "Gözlerini yıldızlarda, ayaklarını yerde tut.",
+      "es": "Mantén tus ojos en las estrellas y tus pies en la tierra.",
+      "de": "Richte deinen Blick auf die Sterne und deine Füße auf den Boden."
+    },
+    "author": { "en": "Theodore Roosevelt" }
+  },
+  {
+    "id": 119,
+    "text": {
+      "en": "The way to get started is to quit talking and begin doing.",
+      "tr": "Başlamanın yolu konuşmayı bırakıp yapmaya başlamaktır.",
+      "es": "La forma de empezar es dejar de hablar y empezar a hacer.",
+      "de": "Der Weg zum Anfangen ist, mit dem Reden aufzuhören und mit dem Tun zu beginnen."
+    },
+    "author": { "en": "Walt Disney" }
+  },
+  {
+    "id": 120,
+    "text": {
+      "en": "If you can dream it, you can do it.",
+      "tr": "Eğer hayal edebilirsen, yapabilirsin.",
+      "es": "Si puedes soñarlo, puedes hacerlo.",
+      "de": "Wenn du es träumen kannst, kannst du es auch tun."
+    },
+    "author": { "en": "Walt Disney" }
+  },
+  {
+    "id": 121,
+    "text": {
+      "en": "A winner is a dreamer who never gives up.",
+      "tr": "Kazanan, asla pes etmeyen bir hayalperesttir.",
+      "es": "Un ganador es un soñador que nunca se rinde.",
+      "de": "Ein Gewinner ist ein Träumer, der niemals aufgibt."
+    },
+    "author": { "en": "Nelson Mandela" }
+  },
+  {
+    "id": 122,
+    "text": {
+      "en": "Education is not the filling of a pail, but the lighting of a fire.",
+      "tr": "Eğitim bir kovayı doldurmak değil, bir ateşi yakmaktır.",
+      "es": "La educación no es llenar un cubo, sino encender un fuego.",
+      "de": "Bildung ist nicht das Füllen eines Eimers, sondern das Entzünden eines Feuers."
+    },
+    "author": { "en": "William Butler Yeats" }
+  },
+  {
+    "id": 123,
+    "text": {
+      "en": "Talent wins games, but teamwork and intelligence win championships.",
+      "tr": "Yetenek maç kazandırır, ancak takım çalışması ve zeka şampiyonluk kazandırır.",
+      "es": "El talento gana partidos, pero el trabajo en equipo y la inteligencia ganan campeonatos.",
+      "de": "Talent gewinnt Spiele, aber Teamwork und Intelligenz gewinnen Meisterschaften."
+    },
+    "author": { "en": "Michael Jordan" }
+  },
+  {
+    "id": 124,
+    "text": {
+      "en": "Logic will get you from A to B. Imagination will take you everywhere.",
+      "tr": "Mantık sizi A'dan B'ye götürür. Hayal gücü ise her yere.",
+      "es": "La lógica te llevará de A a B. La imaginación te llevará a todas partes.",
+      "de": "Logik bringt dich von A nach B. Phantasie bringt dich überall hin."
+    },
+    "author": { "en": "Albert Einstein" }
+  },
+  {
+    "id": 125,
+    "text": {
+      "en": "Imagination is more important than knowledge.",
+      "tr": "Hayal gücü bilgiden daha önemlidir.",
+      "es": "La imaginación es más importante que el conocimiento.",
+      "de": "Fantasie ist wichtiger als Wissen."
+    },
+    "author": { "en": "Albert Einstein" }
+  },
+  {
+    "id": 126,
+    "text": {
+      "en": "Start where you are. Use what you have. Do what you can.",
+      "tr": "Olduğun yerden başla. Elindekini kullan. Yapabileceğini yap.",
+      "es": "Empieza donde estás. Usa lo que tienes. Haz lo que puedas.",
+      "de": "Fang an, wo du bist. Benutze, was du hast. Tu, was du kannst."
+    },
+    "author": { "en": "Arthur Ashe" }
+  },
+  {
+    "id": 127,
+    "text": {
+      "en": "The power of imagination makes us infinite.",
+      "tr": "Hayal gücünün kudreti bizi sonsuz kılar.",
+      "es": "El poder de la imaginación nos hace infinitos.",
+      "de": "Die Kraft der Fantasie macht uns unendlich."
+    },
+    "author": { "en": "John Muir" }
+  },
+  {
+    "id": 128,
+    "text": {
+      "en": "Hope is a waking dream.",
+      "tr": "Umut uyanık bir rüyadır.",
+      "es": "La esperanza es un sueño despierto.",
+      "de": "Hoffnung ist ein Wachtraum."
+    },
+    "author": { "en": "Aristotle" }
+  },
+  {
+    "id": 129,
+    "text": {
+      "en": "Freedom is nothing but a chance to be better.",
+      "tr": "Özgürlük, daha iyi olma şansından başka bir şey değildir.",
+      "es": "La libertad no es más que una oportunidad para ser mejor.",
+      "de": "Freiheit ist nichts anderes als eine Chance, besser zu sein."
+    },
+    "author": { "en": "Albert Camus" }
+  },
+  {
+    "id": 130,
+    "text": {
+      "en": "Patience is bitter, but its fruit is sweet.",
+      "tr": "Sabır acıdır, ama meyvesi tatlıdır.",
+      "es": "La paciencia es amarga, pero su fruto es dulce.",
+      "de": "Geduld ist bitter, aber ihre Frucht ist süß."
+    },
+    "author": { "en": "Aristotle" }
+  },
+  {
+    "id": 131,
+    "text": {
+      "en": "He who has a why to live can bear almost any how.",
+      "tr": "Yaşamak için bir nedeni olan, hemen hemen her nasıla katlanabilir.",
+      "es": "Quien tiene un porqué para vivir puede soportar casi cualquier cómo.",
+      "de": "Wer ein Warum zum Leben hat, erträgt fast jedes Wie."
+    },
+    "author": { "en": "Friedrich Nietzsche" }
+  },
+  {
+    "id": 132,
+    "text": {
+      "en": "Without deviation from the norm, progress is not possible.",
+      "tr": "Normdan sapma olmadan ilerleme mümkün değildir.",
+      "es": "Sin desviación de la norma, el progreso no es posible.",
+      "de": "Ohne Abweichung von der Norm ist Fortschritt nicht möglich."
+    },
+    "author": { "en": "Frank Zappa" }
+  },
+  {
+    "id": 133,
+    "text": {
+      "en": "Normality is a paved road: It's comfortable to walk, but no flowers grow on it.",
+      "tr": "Normallik asfaltlanmış bir yoldur: Yürümesi rahattır ama üzerinde çiçek büyümez.",
+      "es": "La normalidad es un camino pavimentado: es cómodo caminar, pero no crecen flores en él.",
+      "de": "Normalität ist eine gepflasterte Straße: Man kann gut darauf gehen, doch es wachsen keine Blumen auf ihr."
+    },
+    "author": { "en": "Vincent van Gogh" }
+  },
+  {
+    "id": 134,
+    "text": {
+      "en": "I shut my eyes in order to see.",
+      "tr": "Görmek için gözlerimi kapatıyorum.",
+      "es": "Cierro los ojos para ver.",
+      "de": "Ich schließe meine Augen, um zu sehen."
+    },
+    "author": { "en": "Paul Gauguin" }
+  },
+  {
+    "id": 135,
+    "text": {
+      "en": "Art is the lie that enables us to realize the truth.",
+      "tr": "Sanat, gerçeği fark etmemizi sağlayan yalandır.",
+      "es": "El arte es la mentira que nos permite comprender la verdad.",
+      "de": "Kunst ist die Lüge, die uns die Wahrheit erkennen lässt."
+    },
+    "author": { "en": "Pablo Picasso" }
+  },
+  {
+    "id": 136,
+    "text": {
+      "en": "Learning never exhausts the mind.",
+      "tr": "Öğrenmek zihni asla yormaz.",
+      "es": "El aprendizaje nunca agota la mente.",
+      "de": "Lernen erschöpft den Geist nie."
+    },
+    "author": { "en": "Leonardo da Vinci" }
+  },
+  {
+    "id": 137,
+    "text": {
+      "en": "Time stays long enough for anyone who will use it.",
+      "tr": "Zaman, onu kullanacak herkes için yeterince uzun kalır.",
+      "es": "El tiempo dura lo suficiente para cualquiera que lo use.",
+      "de": "Die Zeit verweilt lange genug für jeden, der sie nutzen will."
+    },
+    "author": { "en": "Leonardo da Vinci" }
+  },
+  {
+    "id": 138,
+    "text": {
+      "en": "A rolling stone gathers no moss.",
+      "tr": "Yuvarlanan taş yosun tutmaz.",
+      "es": "Piedra movediza no cría moho.",
+      "de": "Ein rollender Stein setzt kein Moos an."
+    },
+    "author": { "en": "Publilius Syrus" }
+  },
+  {
+    "id": 139,
+    "text": {
+      "en": "Actions speak louder than words.",
+      "tr": "Eylemler sözlerden daha yüksek sesle konuşur (Ayinesi iştir kişinin lafa bakılmaz).",
+      "es": "Las acciones hablan más fuerte que las palabras.",
+      "de": "Taten sagen mehr als Worte."
+    },
+    "author": { "en": "Proverb" }
+  },
+  {
+    "id": 140,
+    "text": {
+      "en": "All that glitters is not gold.",
+      "tr": "Her parlayan altın değildir.",
+      "es": "No todo lo que brilla es oro.",
+      "de": "Nicht alles, was glänzt, ist Gold."
+    },
+    "author": { "en": "William Shakespeare" }
+  },
+  {
+    "id": 141,
+    "text": {
+      "en": "Beauty is in the eye of the beholder.",
+      "tr": "Güzellik bakanın gözündedir.",
+      "es": "La belleza está en el ojo del espectador.",
+      "de": "Schönheit liegt im Auge des Betrachters."
+    },
+    "author": { "en": "Margaret Wolfe Hungerford" }
+  },
+  {
+    "id": 142,
+    "text": {
+      "en": "Cleanliness is next to godliness.",
+      "tr": "Temizlik imandan gelir.",
+      "es": "La limpieza está cerca de la divinidad.",
+      "de": "Sauberkeit ist das halbe Leben."
+    },
+    "author": { "en": "John Wesley" }
+  },
+  {
+    "id": 143,
+    "text": {
+      "en": "Practice makes perfect.",
+      "tr": "Pratik yapmak mükemmelleştirir (İşleyen demir ışıldar).",
+      "es": "La práctica hace al maestro.",
+      "de": "Übung macht den Meister."
+    },
+    "author": { "en": "Proverb" }
+  },
+  {
+    "id": 144,
+    "text": {
+      "en": "Silence is golden.",
+      "tr": "Söz gümüşse sükut altındır.",
+      "es": "El silencio es oro.",
+      "de": "Schweigen ist Gold."
+    },
+    "author": { "en": "Proverb" }
+  },
+  {
+    "id": 145,
+    "text": {
+      "en": "The early bird catches the worm.",
+      "tr": "Erken kalkan yol alır.",
+      "es": "A quien madruga, Dios le ayuda.",
+      "de": "Der frühe Vogel fängt den Wurm."
+    },
+    "author": { "en": "Proverb" }
+  },
+  {
+    "id": 146,
+    "text": {
+      "en": "To handle yourself, use your head; to handle others, use your heart.",
+      "tr": "Kendini idare etmek için aklını kullan; başkalarını idare etmek için kalbini kullan.",
+      "es": "Para manejarte a ti mismo, usa la cabeza; para manejar a otros, usa tu corazón.",
+      "de": "Um dich selbst zu führen, benutze deinen Kopf; um andere zu führen, benutze dein Herz."
+    },
+    "author": { "en": "Eleanor Roosevelt" }
+  },
+  {
+    "id": 147,
+    "text": {
+      "en": "Doubt kills more dreams than failure ever will.",
+      "tr": "Şüphe, başarısızlıktan daha fazla hayal öldürür.",
+      "es": "La duda mata más sueños de los que el fracaso jamás matará.",
+      "de": "Zweifel töten mehr Träume als Niederlagen es je könnten."
+    },
+    "author": { "en": "Suzy Kassem" }
+  },
+  {
+    "id": 148,
+    "text": {
+      "en": "It is not the mountain we conquer, but ourselves.",
+      "tr": "Fethettiğimiz dağ değil, kendimiziz.",
+      "es": "No es la montaña lo que conquistamos, sino a nosotros mismos.",
+      "de": "Nicht den Berg bezwingen wir, sondern uns selbst."
+    },
+    "author": { "en": "Edmund Hillary" }
+  },
+  {
+    "id": 149,
+    "text": {
+      "en": "Happiness is only real when shared.",
+      "tr": "Mutluluk sadece paylaşıldığında gerçektir.",
+      "es": "La felicidad solo es real cuando es compartida.",
+      "de": "Glück ist nur echt, wenn man es teilt."
+    },
+    "author": { "en": "Christopher McCandless" }
+  },
+  {
+    "id": 150,
+    "text": {
+      "en": "Wonder is the beginning of wisdom.",
+      "tr": "Merak bilgeliğin başlangıcıdır.",
+      "es": "El asombro es el comienzo de la sabiduría.",
+      "de": "Wundern ist der Anfang der Weisheit."
+    },
+    "author": { "en": "Socrates" }
+  },
+  {
+    "id": 151,
+    "text": {
+      "en": "Lost time is never found again.",
+      "tr": "Kaybolan zaman asla geri bulunmaz.",
+      "es": "El tiempo perdido nunca se vuelve a encontrar.",
+      "de": "Verlorene Zeit wird nie wiedergefunden."
+    },
+    "author": { "en": "Benjamin Franklin" }
+  },
+  {
+    "id": 152,
+    "text": {
+      "en": "Stay hungry, stay foolish.",
+      "tr": "Aç kal, budala kal.",
+      "es": "Mantente hambriento, mantente alocado.",
+      "de": "Bleibt hungrig, bleibt tollkühn."
+    },
+    "author": { "en": "Steve Jobs" }
+  },
+  {
+    "id": 153,
+    "text": {
+      "en": "The best way out is always through.",
+      "tr": "Çıkışın en iyi yolu her zaman içinden geçmektir.",
+      "es": "La mejor salida es siempre a través.",
+      "de": "Der beste Ausweg führt immer mitten hindurch."
+    },
+    "author": { "en": "Robert Frost" }
+  },
+  {
+    "id": 154,
+    "text": {
+      "en": "Focus on the journey, not the destination.",
+      "tr": "Varış noktasına değil, yolculuğa odaklan.",
+      "es": "Céntrate en el viaje, no en el destino.",
+      "de": "Konzentriere dich auf die Reise, nicht auf das Ziel."
+    },
+    "author": { "en": "Greg Anderson" }
+  },
+  {
+    "id": 155,
+    "text": {
+      "en": "No man is an island.",
+      "tr": "Hiçbir insan bir ada değildir.",
+      "es": "Ningún hombre es una isla.",
+      "de": "Niemand ist eine Insel."
+    },
+    "author": { "en": "John Donne" }
+  },
+  {
+    "id": 156,
+    "text": {
+      "en": "To err is human, to forgive divine.",
+      "tr": "Hata yapmak insana, affetmek Tanrı'ya mahsustur.",
+      "es": "Errar es humano, perdonar es divino.",
+      "de": "Irren ist menschlich, Vergeben göttlich."
+    },
+    "author": { "en": "Alexander Pope" }
+  },
+  {
+    "id": 157,
+    "text": {
+      "en": "The pen is mightier than the sword.",
+      "tr": "Kalem kılıçtan keskindir.",
+      "es": "La pluma es más poderosa que la espada.",
+      "de": "Die Feder ist mächtiger als das Schwert."
+    },
+    "author": { "en": "Edward Bulwer-Lytton" }
+  },
+  {
+    "id": 158,
+    "text": {
+      "en": "When the going gets tough, the tough get going.",
+      "tr": "İşler zorlaştığında, zorlu insanlar harekete geçer.",
+      "es": "Cuando la situación se pone difícil, los duros se ponen en marcha.",
+      "de": "Wenn es hart auf hart kommt, kommen die Harten in Fahrt."
+    },
+    "author": { "en": "Joseph Kennedy" }
+  },
+  {
+    "id": 159,
+    "text": {
+      "en": "Keep your friends close, but your enemies closer.",
+      "tr": "Dostlarını yakın tut ama düşmanlarını daha yakın.",
+      "es": "Mantén cerca a tus amigos, pero aún más cerca a tus enemigos.",
+      "de": "Halte deine Freunde nah bei dir, aber deine Feinde noch näher."
+    },
+    "author": { "en": "Sun Tzu" }
+  },
+  {
+    "id": 160,
+    "text": {
+      "en": "Seize the day.",
+      "tr": "Günü yakala (Carpe Diem).",
+      "es": "Aprovecha el día.",
+      "de": "Nutze den Tag."
+    },
+    "author": { "en": "Horace" }
+  },
+  {
+    "id": 161,
+    "text": {
+      "en": "I have a dream.",
+      "tr": "Bir hayalim var.",
+      "es": "Tengo un sueño.",
+      "de": "Ich habe einen Traum."
+    },
+    "author": { "en": "Martin Luther King Jr." }
+  },
+  {
+    "id": 162,
+    "text": {
+      "en": "That's one small step for a man, one giant leap for mankind.",
+      "tr": "Bu bir insan için küçük, insanlık için dev bir adım.",
+      "es": "Es un pequeño paso para un hombre, pero un gran salto para la humanidad.",
+      "de": "Das ist ein kleiner Schritt für einen Menschen, ein riesiger Sprung für die Menschheit."
+    },
+    "author": { "en": "Neil Armstrong" }
+  },
+  {
+    "id": 163,
+    "text": {
+      "en": "Man is born free, and everywhere he is in chains.",
+      "tr": "İnsan özgür doğar ve her yerde zincire vurulmuştur.",
+      "es": "El hombre nace libre, pero en todos lados está encadenado.",
+      "de": "Der Mensch ist frei geboren, und überall liegt er in Ketten."
+    },
+    "author": { "en": "Jean-Jacques Rousseau" }
+  },
+  {
+    "id": 164,
+    "text": {
+      "en": "Hell is other people.",
+      "tr": "Cehennem başkalarıdır.",
+      "es": "El infierno son los otros.",
+      "de": "Die Hölle, das sind die anderen."
+    },
+    "author": { "en": "Jean-Paul Sartre" }
+  },
+  {
+    "id": 165,
+    "text": {
+      "en": "The heart has its reasons of which reason knows nothing.",
+      "tr": "Kalbin, aklın hiç bilmediği nedenleri vardır.",
+      "es": "El corazón tiene razones que la razón ignora.",
+      "de": "Das Herz hat seine Gründe, die der Verstand nicht kennt."
+    },
+    "author": { "en": "Blaise Pascal" }
+  },
+  {
+    "id": 166,
+    "text": {
+      "en": "Life is short, art is long.",
+      "tr": "Hayat kısa, sanat uzundur.",
+      "es": "La vida es breve, el arte es largo.",
+      "de": "Das Leben ist kurz, die Kunst ist lang."
+    },
+    "author": { "en": "Hippocrates" }
+  },
+  {
+    "id": 167,
+    "text": {
+      "en": "I came, I saw, I conquered.",
+      "tr": "Geldim, gördüm, yendim (Veni, vidi, vici).",
+      "es": "Vine, vi, vencí.",
+      "de": "Ich kam, ich sah, ich siegte."
+    },
+    "author": { "en": "Julius Caesar" }
+  },
+  {
+    "id": 168,
+    "text": {
+      "en": "To be, or not to be, that is the question.",
+      "tr": "Olmak ya da olmamak, işte bütün mesele bu.",
+      "es": "Ser o no ser, esa es la cuestión.",
+      "de": "Sein oder Nichtsein, das ist hier die Frage."
+    },
+    "author": { "en": "William Shakespeare" }
+  },
+  {
+    "id": 169,
+    "text": {
+      "en": "All the world's a stage.",
+      "tr": "Bütün dünya bir sahnedir.",
+      "es": "Todo el mundo es un escenario.",
+      "de": "Die ganze Welt ist eine Bühne."
+    },
+    "author": { "en": "William Shakespeare" }
+  },
+  {
+    "id": 170,
+    "text": {
+      "en": "Brevity is the soul of wit.",
+      "tr": "Sözün özü kısa olanıdır.",
+      "es": "La brevedad es el alma del ingenio.",
+      "de": "In der Kürze liegt die Würze."
+    },
+    "author": { "en": "William Shakespeare" }
+  },
+  {
+    "id": 171,
+    "text": {
+      "en": "Cowards die many times before their deaths.",
+      "tr": "Korkaklar ecelleri gelmeden defalarca ölürler.",
+      "es": "Los cobardes mueren muchas veces antes de su verdadera muerte.",
+      "de": "Feiglinge sterben viele Male vor ihrem Tod."
+    },
+    "author": { "en": "William Shakespeare" }
+  },
+  {
+    "id": 172,
+    "text": {
+      "en": "Love looks not with the eyes, but with the mind.",
+      "tr": "Aşk gözle değil, ruhla (zihinle) görür.",
+      "es": "El amor no mira con los ojos, sino con la mente.",
+      "de": "Liebe sieht nicht mit den Augen, sondern mit dem Geist."
+    },
+    "author": { "en": "William Shakespeare" }
+  },
+  {
+    "id": 173,
+    "text": {
+      "en": "If music be the food of love, play on.",
+      "tr": "Eğer müzik aşkın gıdasıysa, çalmaya devam et.",
+      "es": "Si la música es el alimento del amor, sigue tocando.",
+      "de": "Wenn Musik die Nahrung der Liebe ist, dann spielt weiter."
+    },
+    "author": { "en": "William Shakespeare" }
+  },
+  {
+    "id": 174,
+    "text": {
+      "en": "There is nothing new under the sun.",
+      "tr": "Güneşin altında yeni bir şey yok.",
+      "es": "No hay nada nuevo bajo el sol.",
+      "de": "Es gibt nichts Neues unter der Sonne."
+    },
+    "author": { "en": "Ecclesiastes" }
+  },
+  {
+    "id": 175,
+    "text": {
+      "en": "Love your neighbor as yourself.",
+      "tr": "Komşunu kendin gibi sev.",
+      "es": "Ama a tu prójimo como a ti mismo.",
+      "de": "Liebe deinen Nächsten wie dich selbst."
+    },
+    "author": { "en": "Bible" }
+  },
+  {
+    "id": 176,
+    "text": {
+      "en": "Let there be light.",
+      "tr": "Işık olsun.",
+      "es": "Hágase la luz.",
+      "de": "Es werde Licht."
+    },
+    "author": { "en": "Bible" }
+  },
+  {
+    "id": 177,
+    "text": {
+      "en": "This too shall pass.",
+      "tr": "Bu da geçer yahu.",
+      "es": "Esto también pasará.",
+      "de": "Auch das geht vorüber."
+    },
+    "author": { "en": "Persian Adage" }
+  },
+  {
+    "id": 178,
+    "text": {
+      "en": "Know thyself.",
+      "tr": "Kendini bil.",
+      "es": "Conócete a ti mismo.",
+      "de": "Erkenne dich selbst."
+    },
+    "author": { "en": "Ancient Greek" }
+  },
+  {
+    "id": 179,
+    "text": {
+      "en": "Man is the measure of all things.",
+      "tr": "İnsan her şeyin ölçüsüdür.",
+      "es": "El hombre es la medida de todas las cosas.",
+      "de": "Der Mensch ist das Maß aller Dinge."
+    },
+    "author": { "en": "Protagoras" }
+  },
+  {
+    "id": 180,
+    "text": {
+      "en": "One swallow does not make a summer.",
+      "tr": "Bir çiçekle yaz gelmez.",
+      "es": "Una golondrina no hace verano.",
+      "de": "Eine Schwalbe macht noch keinen Sommer."
+    },
+    "author": { "en": "Aristotle" }
+  },
+  {
+    "id": 181,
+    "text": {
+      "en": "Friendship is a single soul dwelling in two bodies.",
+      "tr": "Dostluk, iki bedende yaşayan tek bir ruhtur.",
+      "es": "La amistad es un alma que habita en dos cuerpos.",
+      "de": "Freundschaft ist eine Seele in zwei Körpern."
+    },
+    "author": { "en": "Aristotle" }
+  },
+  {
+    "id": 182,
+    "text": {
+      "en": "Give me a place to stand, and I will move the earth.",
+      "tr": "Bana duracak bir yer verin, dünyayı yerinden oynatayım.",
+      "es": "Dadme un punto de apoyo y moveré el mundo.",
+      "de": "Gib mir einen festen Punkt, und ich werde die Erde bewegen."
+    },
+    "author": { "en": "Archimedes" }
+  },
+  {
+    "id": 183,
+    "text": {
+      "en": "I disapprove of what you say, but I will defend to the death your right to say it.",
+      "tr": "Söylediklerini onaylamıyorum ama söyleme hakkını ölümüne savunurum.",
+      "es": "No estoy de acuerdo con lo que dices, pero defenderé con mi vida tu derecho a decirlo.",
+      "de": "Ich missbillige, was du sagst, aber ich werde dein Recht, es zu sagen, bis in den Tod verteidigen."
+    },
+    "author": { "en": "Evelyn Beatrice Hall" }
+  }
+]
