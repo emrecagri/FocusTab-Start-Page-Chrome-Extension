@@ -1,6 +1,5 @@
 # FocusTab - Personalized Focus & Zen Dashboard
 
-![FocusTab Banner](https://via.placeholder.com/1280x640?text=FocusTab+Promo+Image)
 [![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-Available-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://go.emrecb.com/focustab-start-page-web-store)
 ![Version](https://img.shields.io/badge/version-9.2.0-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
