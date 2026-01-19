@@ -4,7 +4,7 @@
 ![Version](https://img.shields.io/badge/version-9.2.0-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-GNU-green?style=for-the-badge)
 
-[🇹🇷 Türkçe](#-türkçe) | [🇬🇧 English](#-english) | [🇹🇷 Ekran Görüntüleri](#ekran-görüntüleri) | [🇬🇧 Screenshoots](#screenshoots)
+[🇹🇷 Türkçe](#-türkçe) | [🇬🇧 English](#-english) | [🇹🇷 Ekran Görüntüleri](#ekran-görüntüleri) | [🇬🇧 Screenshots](#screenshots)
 
 ---
 
@@ -137,7 +137,7 @@ If you want to run this extension locally or contribute:
 
 ---
 
-## Screenshoots
+## Screenshots
 
 ![image](screenshots/en/1.png)
 ![image](screenshots/en/2.png)
