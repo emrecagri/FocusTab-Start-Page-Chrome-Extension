@@ -1,6 +1,6 @@
 # FocusTab - Personalized Focus & Zen Dashboard
 
-[![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-Available-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://go.emrecb.com/focustab-start-page-web-store)
+[![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-Available-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://chromewebstore.google.com/detail/focustab-loruv/dmjpalgpmjmkmilmadbmonbhbdjhakbi)
 ![Version](https://img.shields.io/badge/version-9.2.0-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-GNU-green?style=for-the-badge)
 
@@ -11,6 +11,8 @@
 ## 🇹🇷 Türkçe
 
 **FocusTab**, tarayıcınızın varsayılan "Yeni Sekme" sayfasını, üretkenliği artıran ve zihinsel dinginlik sağlayan güçlü bir kişisel panele dönüştüren kapsamlı bir Google Chrome eklentisidir. Görev yönetimi ile rahatlama arasındaki köprüyü kurarak, özelleştirilebilir bir atmosfer eşliğinde günlük hedeflerinize odaklanmanızı sağlar.
+
+Google Web Store: [https://go.emrecb.com/focustab-baslangic-sayfasi-web-store](https://go.emrecb.com/focustab-baslangic-sayfasi-web-store)
 
 ### 🌟 Temel Özellikler
 
@@ -69,6 +71,8 @@ Projeyi yerel ortamınızda çalıştırmak veya geliştirmek isterseniz:
 ## 🇬🇧 English
 
 **FocusTab** is a robust Google Chrome extension designed to transform the default “New Tab” page into a productivity hub and a sanctuary for mental clarity. It bridges the gap between task management and relaxation, allowing users to stay focused on their daily goals while immersing themselves in a customizable audio-visual environment.
+
+Google Web Store: [https://go.emrecb.com/focustab-start-page-web-store](https://go.emrecb.com/focustab-start-page-web-store)
 
 ### 🌟 Key Features
 
