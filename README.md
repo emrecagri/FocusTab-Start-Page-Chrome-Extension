@@ -4,7 +4,7 @@
 ![Version](https://img.shields.io/badge/version-9.2.0-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-GNU-green?style=for-the-badge)
 
-[🇹🇷 Türkçe](#-türkçe) | [🇬🇧 English](#-english)
+[🇹🇷 Türkçe](#-türkçe) | [🇬🇧 English](#-english) | [🇹🇷 Ekran Görüntüleri](#-Ekran-Görüntüleri) | [🇬🇧 Screenshoots](#-Screenshoots)
 
 ---
 
@@ -127,11 +127,25 @@ If you want to run this extension locally or contribute:
 
 ---
 
-## 📸 Screenshots / Ekran Görüntüleri
+## Ekran Görüntüleri
 
-| Dashboard View | Zen Mode |
-|:---:|:---:|
-| ![Dashboard](path/to/screenshot1.png) | ![Zen Mode](path/to/screenshot2.png) |
+![image](screenshot/tr/1.png)
+![image](screenshot/tr/2.png)
+![image](screenshot/tr/3.png)
+![image](screenshot/tr/4.png)
+![image](screenshot/tr/5.png)
+
+---
+
+## Screenshoots
+
+![image](screenshot/en/1.png)
+![image](screenshot/en/2.png)
+![image](screenshot/en/3.png)
+![image](screenshot/en/4.png)
+![image](screenshot/en/5.png)
+
+
 ## 📂 Project Structure
 
 ```text
