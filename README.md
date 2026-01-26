@@ -14,7 +14,8 @@
 
 Google Web Store: [https://go.emrecb.com/focustab-baslangic-sayfasi-web-store](https://go.emrecb.com/focustab-baslangic-sayfasi-web-store)
 
-### 🌟 Temel Özellikler
+
+### 🌟 Başlıca Özellikler
 
 #### 1. Üretkenlik ve Odak Yönetimi
 * **🍅 Pomodoro Zamanlayıcı:** Entegre sayaç ile 25 dakikalık odaklanma periyotları (sesli ve görsel bildirimli).
